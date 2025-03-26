@@ -16,6 +16,15 @@
 
 /* 1200px以下の表示設定 */
 @media screen and (max-width: 1200px) {
+    /* desktop navの非表示とhamburger menuの表示 */
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
     /* Experienceセクションとその中の間隔を調整 */
     #experience,
     .experience-details-container {
